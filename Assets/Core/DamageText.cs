@@ -24,7 +24,7 @@ public class DamageText : MonoBehaviour
         Text.name = Random.Range(-Speed / 2f, Speed / 2f).ToString();
         GeneratedText.Add(Text);
         punches++;
-        CountPunches.text = "Попаданий:" + punches;
+        CountPunches.text = "Попаданий: " + punches;
     }
     
     private void Update()
